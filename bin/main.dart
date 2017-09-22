@@ -45,7 +45,7 @@ main(List<String> arguments) {
       }
       stopWatch.stop();
       print("\tProcessed ${odometer.getNDigits()}-digit numbers in base $base in ${stopWatch
-          .elapsed.inSeconds} second(s).");
+          .elapsed.inMilliseconds} milliseconds.");
       stopWatch.reset();
     }
     //odometer.increment();
